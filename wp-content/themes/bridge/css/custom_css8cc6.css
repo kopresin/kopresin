@@ -1,0 +1,127 @@
+
+
+.touch .popup_menu_holder_outer{
+display: none;
+}
+
+.touch .popup_menu_opened .popup_menu_holder_outer{
+display: block;
+}
+
+.google_map {
+margin: 0;
+}
+
+.footer_top {
+background: url('../../../uploads/2015/02/footer-background.jpg') no-repeat 0px 0px;
+background-size: cover;
+padding: 85px 0px 45px 0px;
+}
+
+.three_columns>.column2>.column_inner{
+text-align: center;
+}
+
+.q_progress_bar .progress_title_holder {
+font-weight: 400;
+letter-spacing: 0px;
+}
+
+
+.footer_top .wpcf7 .column_inner {
+padding: 0px;
+margin-right: 10px;
+}
+
+input.wpcf7-form-control.wpcf7-text, input.wpcf7-form-control.wpcf7-number, input.wpcf7-form-control.wpcf7-date, textarea.wpcf7-form-control.wpcf7-textarea {
+height: 44px;
+border-width: 1px;
+border-color: #d5d5d5;
+border-radius: 5px;
+background-color: #e6e6e6;
+}
+
+input.wpcf7-form-control.wpcf7-text, input.wpcf7-form-control.wpcf7-number, input.wpcf7-form-control.wpcf7-date, textarea.wpcf7-form-control.wpcf7-textarea, select.wpcf7-form-control.wpcf7-select, input.wpcf7-form-control.wpcf7-quiz {
+font-size: 13px;
+font-family: 'Open Sans';
+line-height: 15px;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+margin-top: 7px;
+}
+
+
+header.sticky .header_bottom {
+box-shadow: none;
+}
+
+#back_to_top {
+bottom: 78px;
+}
+
+.carousel-inner .slider_content .text .qbutton {
+color: #ffffff;
+border-width: 1px;
+border-color: #ffffff;
+background-color: transparent;
+
+}
+
+.carousel-inner .slider_content .text .qbutton:hover{
+color: #ffffff;
+border-color: #d21151;
+background-color: #d21151;
+}
+
+
+.title.title_size_large h1 {
+color: #242424;
+font-size: 40px;
+letter-spacing: 1px;
+font-weight: 300;
+}
+
+.content .container .container_inner {
+padding-top: 90px;
+}
+
+.blog_holder article .post_info {
+font-size: 12px;
+font-weight: 400;
+}
+
+.blog_holder article .post_text .date {
+display: none;
+}
+
+.contact_section .separator, .contact_section .separator.small.right, .contact_section .separator.small.left {
+margin-top: 20px;
+margin-bottom: 25px;
+}
+
+#respond textarea, #respond input[type='text'], .contact_form input[type='text'], .contact_form textarea {
+font-family: open sans;
+color: #969696;
+font-size: 14px;
+line-height: 20px;
+}
+
+.page-template-blog-small-image .blog_holder article h2 a {
+font-size: 27px;
+text-transform: uppercase;
+font-weight: 400;
+letter-spacing: 1;
+line-height: 30px;
+}
+
+@media screen and (max-width: 800px) {
+.footer_top h2 {
+font-size: 27px;
+}
+}
+
+.full_width {
+position: relative;
+}
+

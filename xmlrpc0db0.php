@@ -2,12 +2,12 @@
   <service>
     <engineName>WordPress</engineName>
     <engineLink>http://wordpress.org/</engineLink>
-    <homePageLink>http://demo.parksandparker.com/basic</homePageLink>
+    <homePageLink>http://demo.qodeinteractive.com/bridge63</homePageLink>
     <apis>
-      <api name="WordPress" blogID="1" preferred="true" apiLink="http://demo.parksandparker.com/basic/xmlrpc.php" />
-      <api name="Movable Type" blogID="1" preferred="false" apiLink="http://demo.parksandparker.com/basic/xmlrpc.php" />
-      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="http://demo.parksandparker.com/basic/xmlrpc.php" />
-      <api name="Blogger" blogID="1" preferred="false" apiLink="http://demo.parksandparker.com/basic/xmlrpc.php" />
+      <api name="WordPress" blogID="1" preferred="true" apiLink="http://demo.qodeinteractive.com/bridge63/xmlrpc.php" />
+      <api name="Movable Type" blogID="1" preferred="false" apiLink="http://demo.qodeinteractive.com/bridge63/xmlrpc.php" />
+      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="http://demo.qodeinteractive.com/bridge63/xmlrpc.php" />
+      <api name="Blogger" blogID="1" preferred="false" apiLink="http://demo.qodeinteractive.com/bridge63/xmlrpc.php" />
           </apis>
   </service>
 </rsd>
