@@ -166,26 +166,34 @@ Bangalore - 560 091, IN<br />
 <div class="screen-reader-response"></div>
 
 
-<form method="POST" action="https://formspree.io/komal@redmorphic.com">
+<form action="https://formspree.io/komal@redmorphic.com" method="POST" class="wpcf7-form" novalidate>
 <div class="row">
 <div class="small-12 large-6 columns">
-<label>Your Name</label> <span class="wpcf7-form-control-wrap your-firstname">
+<label>Your Name</label> <span class="wpcf7-form-control-wrap your-firstname"><input type="text" name="Name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" aria-required="true" aria-invalid="false" /></span>
+</div>
 
-<input type="name" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" aria-required="true" aria-invalid="false" /></span>
-</div>
 <div class="small-12 large-6 columns">
-<label>Your E-mail</label> <span class="wpcf7-form-control-wrap your-email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" aria-required="true" aria-invalid="false" /></span>
+<label>Your E-mail</label> <span class="wpcf7-form-control-wrap your-email"><input type="text" name="Email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" aria-required="true" aria-invalid="false" /></span>
+</div>
+
+<div class="small-12 columns">
+<label>What's your budget range?</label> <span class="wpcf7-form-control-wrap exclusive"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first">
+
+<label><input type="checkbox" name="Budget" value="Low Budget" /><span class="wpcf7-list-item-label">Low Budget</span></label></span><span class="wpcf7-list-item"><label>
+
+<input type="checkbox" name="Budget" value="$5,000 - $10,000" /><span class="wpcf7-list-item-label">₹5,000 - ₹10,000</span></label></span><span class="wpcf7-list-item"><label>
+
+<input type="checkbox" name="Budget" value="$10,000 - $20,000" /><span class="wpcf7-list-item-label">₹10,000 - ₹20,000</span></label></span><span class="wpcf7-list-item last"><label>
+
+<input type="checkbox" name="Budget" value="$20,000+" /><span class="wpcf7-list-item-label">₹20,000+</span></label></span></span></span>
 </div>
 <div class="small-12 columns">
-<label>What's your budget range?</label> <span class="wpcf7-form-control-wrap exclusive"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first"><label><input type="checkbox" name="exclusive[]" value="Low Budget" /><span class="wpcf7-list-item-label">Low Budget</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="exclusive[]" value="$5,000 - $10,000" /><span class="wpcf7-list-item-label">₹5,000 - ₹10,000</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="exclusive[]" value="$10,000 - $20,000" /><span class="wpcf7-list-item-label">₹10,000 - ₹20,000</span></label></span><span class="wpcf7-list-item last"><label><input type="checkbox" name="exclusive[]" value="$20,000+" /><span class="wpcf7-list-item-label">₹20,000+</span></label></span></span></span>
-</div>
-<div class="small-12 columns">
-<label>Your Message</label> <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea full" aria-invalid="false"></textarea></span>
+<label>Your Message</label> <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea full" aria-invalid="false"></textarea></span>
 </div>
 </div>
 <div class="row">
 <div class="small-12 columns">
-<input type="submit" value="Send Message" class="wpcf7-form-control wpcf7-submit btn" />
+<input type="submit" value="Send Message" class="button" />
 </div>
 </div>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form>
